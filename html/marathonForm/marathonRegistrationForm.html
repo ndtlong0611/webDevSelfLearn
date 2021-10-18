@@ -8,6 +8,49 @@
 </head>
 <body>
     <h1>Race Registration!</h1>
-    <form action="/success.html"></form>
+    <form action="C:\Users\Ninjin Nguyen\Desktop\webDevSelfLearn\html\marathonForm\success.html">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstN" id="firstName" required>
+        
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastN" id="lastName">
+
+    <div>
+        <label for="race">Select a Race:</label>
+        <div>
+            <input type="radio" value="5k" name="race" id="5k">
+            <label for="5k">Fun Run 5K</label>
+        </div>
+        <div>
+            <input type="radio" value="half" name="race" id="half">
+            <label for="half">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" value="full" name="race" id="full">
+            <label for="full">Full Marathon</label>
+        </div>
+    </div>
+
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    
+    <label for="passw">Password</label>
+    <input type="password" name="passw" id="passw">
+
+    <div>
+        <label for="ageSelect">Select Age Group:</label>
+        <select name="ageGroup" id="ageSelect" required>
+            <option value="">--Select your age group--</option>
+            <option value="under18">Under 18</option>
+            <option value="18to30">18 - 30</option>
+            <option value="30to50">30 - 50</option>
+            <option value="50+">50+</option>
+        </select>
+
+    </div>
+    <div>
+        <button>Register</button>
+    </div>
+    </form>
 </body>
 </html>
