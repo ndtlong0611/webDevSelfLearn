@@ -20,3 +20,10 @@
 // a += 5;
 // Above 2 are the same, applies for -, *, /
 // Or ++, --
+
+
+
+// Naming convention/Best practing:
+// - Camel Case/Snake Case: currentDate (camel case) is better 
+// than current_date (snake case_)
+// - Avoid 1-letter variable
