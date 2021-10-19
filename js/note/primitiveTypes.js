@@ -1,5 +1,6 @@
 // Use Chrome console to test out JS code
 // REPL Console - Read Evaluate Print Loop
+// JS is case-sensitive
 
 // 1. Numbers: 
 // - JS has one number type: Positive, Negative, Whole (int) and Decimal numbers. 
@@ -22,8 +23,19 @@
 // Or ++, --
 
 
+// Block comment also works:
+/* Naming convention/Best practing:
+    - Camel Case/Snake Case: currentDate (camel case) is better 
+    than current_date (snake case_)
+    - Avoid 1-letter variable */
 
-// Naming convention/Best practing:
-// - Camel Case/Snake Case: currentDate (camel case) is better 
-// than current_date (snake case_)
-// - Avoid 1-letter variable
+
+// Null and Undefined:
+// - null is sth must be defined/assigned
+// - while undefined is a state  where var is unknown to machine
+
+
+// Math object:
+// - Built-in mathematic constants and functions. 
+// - Like Pi, e, sin(), cos(), etc
+// - Math.random() gives a random number between 0 and 1 (decimal, not including)
