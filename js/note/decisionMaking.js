@@ -21,3 +21,6 @@
 //     + null
 //     + undefined
 //     + NaN
+
+// Logical Operators: 
+// &&, || (No AND, OR)
