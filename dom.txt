@@ -7,3 +7,8 @@ DOM - Document Object Model
 - When a browser loads a webpage, part of the loading process is taking
 HTML and CSS objects and creating JS objects, so that it can be controlled with JS
 - HTML file is structured as tree structure, Document object is the root node in that tree
+
+
+2. Selecting object:
+- document.getElementById("<idOfTheObject>): pick element
+- document.getElementsByTagName
