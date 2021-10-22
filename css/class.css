@@ -1,0 +1,116 @@
+/* Universal Selector */
+/* *{
+    color: black;
+} */
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* element selector */
+/* - Multiple elements can be choosen at the same time, just separated with comma */
+/* <element> {
+    attribute: ...
+}*/
+body {
+    background-color: #a0c4e2 ;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* id selector */
+/* - id that's in label's for and input's id 
+   - as a result, id should be unique across the page
+   - Use #
+   - Refrain from spamming (less than a handful)
+*/
+#search, #user {
+    color: orange
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* Class Selector */
+/* - Use .<class> 
+   - Can be used anywhere that needs the same style
+*/
+.tag { /* <----------- .<class> */
+    color: blue;
+    background-color: white;
+    font-size: 10px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* Descendant Selectors */
+/* <tag1> <tag2> {
+    color: blue;
+}
+=>>>>>>>>any tag2 that's inside tag1 will be colored blue!
+- other tag2 is not affected by this
+- can be nested <tag1> <tag2> <tag3>
+- can be combined with .<class> <tag1> or #<id> <tag1>
+ */
+main button {
+    background-color: red;
+    color: seashell;
+    font-weight: bold
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* Adjacent Selector:  */
+/* - Use operator "+"
+   - E.g: 
+   h1 + p {    =>>>>>>> p immediately after h1 will get styled like this
+       color: pink;
+   }
+ */
+ /* input + button {
+     color: orange
+ } */
+
+ /*/////////////////////////////////////////////////////////////////////////////////////////*/
+ /* Direct Child */
+ /* - Basically a descendant selector
+ - But it's a direct descendant, one level below */
+ /*/////////////////////////////////////////////////////////////////////////////////////////*/
+ /* Attribute Selector:  */
+ input[type="password"] {
+     color: green;
+ }
+
+/* a[href*= "sth"] ====> *= means fuzzy matching with anything that has "sth"
+   a[href$= "sth"] ====> $= means ending with 
+ */
+
+ /*/////////////////////////////////////////////////////////////////////////////////////////*/
+ /* Pseudo Classes */
+ /* - keywords added to a selector that specifies a special state of selected element */
+ /* Format: :<pseu-class> <-------- always with colon:  */
+ /* :hover */
+ button:hover {
+    background-color: lawngreen;
+}
+/* section.a {
+    text-decoration: none;
+} */
+/* :active  */
+/* When the element is activated, it will be styled*/
+
+/* :nth-of-type(<statement>) */
+/*  n or 2n+1 can be inserted into <statement>*/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* Pseudo Elements */
+/* - Keyword added to a selector that lets you style a particular 
+part of the selected elements */
+/* ::<pseu-element> */
+/* first-letter, first-line, 
+selection: style the highlighted (by cursor) elements*/
+/* h2::first-letter{
+    font-size: 50px;
+} */
+/* Example: First letter is bigger */
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* Cascade */
+/* The order your styles are declared in and linked to does matter!!! */
+/* Below declaration overwrites above one, also <link></link> */
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* Specificity */
+/* - is how the browser decided which rules to apply when multiple rules could apply to the  
+same element. 
+- A measure of how specific a given selector is. The more specific selector "wins" */
+/* ID > Class > Element  */
+/*
+100-digit - ID
+10-digit - classes, attrb, pseudo-classes
+1-digit - elements and pseudo-elements */
