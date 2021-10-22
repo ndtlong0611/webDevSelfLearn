@@ -1,3 +1,6 @@
+/* font-family: not all fonts are supported. Check cssfontstack.com */
+/* font-family: <mainFont>, <backUpFont> */
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
 /* Universal Selector */
 /* *{
     color: black;
@@ -114,3 +117,11 @@ same element.
 100-digit - ID
 10-digit - classes, attrb, pseudo-classes
 1-digit - elements and pseudo-elements */
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* !important Style  */
+/* h2::first-letter{
+    font-size: 50px !important; <------- overwrite any style on the h2
+} */
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+/* inherit */
+/* - can be added after property to make that selector */

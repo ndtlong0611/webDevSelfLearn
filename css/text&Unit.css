@@ -1,0 +1,15 @@
+h1 {
+    text-align: right;
+    font-weight: bold; /*400 is normal, 700 is bold*/
+    text-decoration: underline;/*strikethrough, overline*/
+    /* color can be added before underline  */
+    line-height: 2.5;
+    letter-spacing: 10px;
+    font-size: 10px;
+}
+
+/* Absolute Units: not recommend for responsive website 
+- px, pt, cm, in, mm 
+
+Relative Units: 
+- em, rem, vh, vw, % */

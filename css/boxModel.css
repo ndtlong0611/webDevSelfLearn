@@ -1,0 +1,21 @@
+/* 4 properties to form CSS' Box Model: 
+- Border
+- Padding
+- Margin
+- Width: width of context box and content can't go beyond it, width-wise
+- Height: 
+*/
+
+
+/* Anything is a box with CSS */
+
+/* FlexBox */
+/* - Newer feature of CSS
+- 1-D layout method of laying out items in rows or columns
+- Allows us to distribute space dynamically across elements of unknown sizes => Flex */
+
+
+/* Bootstrap */
+/* - CSS Framework: Semantic UI, Foundation
+- just need to include
+- Grid system: */
