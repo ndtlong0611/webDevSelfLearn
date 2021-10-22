@@ -11,4 +11,9 @@ HTML and CSS objects and creating JS objects, so that it can be controlled with 
 
 2. Selecting object:
 - document.getElementById("<idOfTheObject>): pick element
-- document.getElementsByTagName
+- document.getElementsByTagName("<tag>")
+- document.getElementsByClassName("<class>")
+
+- Better way: querySelector 
+    + newer, all-in-one method to select a single element
+    + recent addition to DOM
