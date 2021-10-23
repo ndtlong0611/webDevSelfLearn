@@ -23,3 +23,26 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // To check if a passed argument is a number: 
 // if (typeof(argument) === 'number')
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+// Try - catch:
+// hello.toUpperCase(); <----- this is a statement that can cause error
+// so put it like this:
+try {
+    hello.toUpperCase();
+}
+catch {
+    console.log("ERROR!!!")
+}
+console.log("continue running as usual with try-catch")
+
+// another example:
+function yell(msg) {
+    try {
+        console.log(msg.toUpperCase().repeat(3));
+    } catch(e) {
+        console.log(e);
+        console.log("Please pass a string next time!")
+    }
+}
+//  try-catch can be used to handle the case where inputs are invalid.

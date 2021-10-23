@@ -23,3 +23,5 @@ dateArr = {
     6: "Saturday",
     7: "Sunday"
 }
+
+const checkBox = document.querySelector("input")

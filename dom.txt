@@ -17,3 +17,7 @@ HTML and CSS objects and creating JS objects, so that it can be controlled with 
 - Better way: querySelector 
     + newer, all-in-one method to select a single element
     + recent addition to DOM
+document.querySelector('a[<attribute>])
+
+document.querySelectorAll: returns a collection of matching elements 
+document.querySelectorAll("<selector>")

@@ -17,3 +17,17 @@ const myMath = {
 
 // "this" keyword:
 //  is used to access other properties on the same objects
+
+const cat = {
+    name: "furball",
+    color: "white",
+    breed: "scottish fold",
+    meow() {
+        console.log(this.color); // <---------- must use this.color, color  won't work
+    }
+}
+
+// The value of "this" depends on the invocation context of the function it is used in
+
+// => Window object: a top level object. 
+// any method and function is a function of window

@@ -86,4 +86,15 @@ function makeBetweenFunc(min, max) {
 
 isChild = makeBetweenFunc(0,17) 
 isAdult = makeBetweenFunc(18,64)
+///////////////////////////////////////////////////////////////////////////////////////
+// Array built-in functions/methods:
+// forEach:
+const num=[1,2,3,4,55,6]
+
+num.forEach(function (element) {
+    console.log(element)
+})
+
+// map: take an array, transform data and create an array with the new data
+
 
