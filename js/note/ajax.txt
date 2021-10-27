@@ -1,0 +1,9 @@
+AJAX:
+- Async Javascript and XML
+- Enable loading data behind the scene
+- enables 
+    + infinite scroll on Reddit
+    + simultaneously search/fuzzy search
+
+API: 
+- Application Programming Interface
